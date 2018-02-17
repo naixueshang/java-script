@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<script type="text/javascript"> 
+		<!--
+			function getValue(){
+			var aVal = prompt("The First Num ", "0");
+			var opVal=prompt("Operrator","+");
+			var bVal = prompt("The Second Num", "0");
+			var sumVal;
+			swithc(opVal){
+				case "+":
+				sumVal=aVal.toInteger+bVal.toInteger;
+				break;
+				case "-":
+				sumVal=aVal.toInteger-bVal.toInteger;
+				break;
+				case "*":
+				sumVal=aVal.toInteger*bVal.toInteger;
+				break;
+				case "/"
+				sumVal=aVal.toInteger*bVal.toInteger;
+				break;
+			}
+			var sumValStr=String.IntValue(sumVal);
+			document.write("You have entered : " + sumValStr); }
+		//-->
+		</script>
+	</head>
+	<body>
+		<p>Click the following button to see the result: </p> 
+		<form>
+			<input type="button" value="Click Me" onclick="getValue();" /> 
+		</form>
+	</body>
+</html>
